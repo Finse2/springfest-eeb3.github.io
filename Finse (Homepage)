@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spring Fest 2024</title>
+    <style>
+        body, h1, h2, p, ul, li {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #003366;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header img {
+            max-width: 200px;
+            margin-bottom: 10px;
+        }
+
+        nav ul {
+            list-style: none;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        section {
+            margin-bottom: 30px;
+            text-align: left;
+        }
+
+        footer {
+            background-color: #003366;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            width: 100%;
+        }
+
+        /* Dropdown styles */
+        .dropdown .description {
+            display: none;
+            background-color: #f9f9f9;
+            padding: 10px;
+        }
+
+        .dropdown .highlight {
+            cursor: pointer;
+        }
+
+        .dropdown .highlight:hover {
+            color: #003366;
+        }
+
+        .dropdown li {
+            margin-bottom: 10px;
+        }
+
+        .dropdown li:hover .description {
+            display: block;
+        }
+
+        .section-title {
+            font-size: 48px; /* 2 times bigger */
+            margin-bottom: 10px;
+        }
+
+        .dropdown .Events {
+            font-size: 20px;
+            margin-bottom: 5px;
+        }
+
+        /* Center align text in About section */
+        #about p {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="springfest2024_logo.jpg" alt="Spring Fest 2024 Logo">
+        <h1>Spring Fest 2024</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Teams</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="about">
+            <h2 class="section-title">About Spring Fest</h2>
+            <p>Welcome to Spring Fest 2024! Spring Fest is an annual celebration of culture, creativity, and community. Join us for a weekend of fun-filled events, including fashion shows, exhibitions, sports competitions, theatrical performances, workshops, and much more. Explore the latest trends in fashion, indulge in delicious food and drinks, and immerse yourself in a vibrant atmosphere of entertainment and excitement. Spring Fest is a time to come together, celebrate diversity, and create unforgettable memories. We look forward to seeing you there!</p>
+        </section>
+
+        <section id="Teams">
+            <h2 class="section-title">Teams</h2>
+            <ul class="dropdown">
+                <li>
+                    <span class="Teams">Fashion Show</span>
+                    <div class="description">
+                        <p>A showcase of the latest trends and designs in fashion.</p>
+                    </div>
+                </li>
+               <li>
+                    <span class="Teams">Lights, Sound, IT</span>
+                    <div class="description">
+                        <p>The teams of lighting, sound, IT to fix any issues.</p>
+                    </div>
+                </li>
+                <li>
+                    <span class="Teams">Food and Drink</span>
+                    <div class="description">
+                        <p>Indulge in a variety of delicious food and refreshing drinks.</p>
+                    </div>
+                </li>
+                <li>
+                    <span class="Teams">Sports</span>
+                    <div class="description">
+                        <p>Participate in various sports activities and competitions.</p>
+                    </div>
+                </li>
+                <li>
+                    <span class="Teams">Steward</span>
+                    <div class="description">
+                        <p>Assist in managing and organizing the event.</p>
+                    </div>
+                </li>
+                <li>
+                    <span class="Teams">The Act</span>
+                    <div class="description">
+                        <p>Enjoy theatrical performances and acts.</p>
+                    </div>
+                </li>
+                <li>
+                    <span class="Teams">Crew</span>
+                    <div class="description">
+                        <p>Join the event crew and help in various roles.</p>
+                    </div>
+                </li>
+                <li>
+                    <span class="Teams">Haunted House</span>
+                    <div class="description">
+                        <p>Experience thrilling and spooky encounters in the haunted house.</p>
+                    </div>
+                </li>
+                <li>
+                    <span class="Teams">Music Festival</span>
+                    <div class="description">
+                        <p>Enjoy live music performances from various artists.</p>
+                    </div>
+                </li>
+                <li>
+                    <span class="Teams">Workshop</span>
+                    <div class="description">
+                        <p>Participate in interactive workshops on various topics.</p>
+                    </div>
+                </li>
+                <li>
+                    <span class="Teams">Photo</span>
+                    <div class="description">
+                        <p>Capture memorable moments with professional photography services.</p>
+                    </div>
+                </li>
+                <li>
+                    <span class="Teams">Games</span>
+                    <div class="description">
+                        <p>Have fun with a variety of games and activities.</p>
+                    </div>
+                </li>
+            </ul>
+        </section>
+    <footer>
+        <p>&copy; 2024 Spring Fest. All rights reserved.</p>
+    </footer>
+</body>
+</html>
